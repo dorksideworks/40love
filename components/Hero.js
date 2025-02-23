@@ -27,8 +27,8 @@ export default function Hero() {
                 </div>
 
                 <div className="w-[50%] flex relative justify-center items-center">
-                    <img className="absolute w-[420px] z-20 right-[5%] top-[10%]" src="/HERO/hero-1.png"/>
-                    <img className="absolute w-[400px] z-10 left-[5%] bottom-[10%]" src="/HERO/hero-2.png"/>
+                    <img className="absolute w-[42%] translate-x-[25%] -translate-y-[15%] z-20" src="/HERO/hero-1.png"/>
+                    <img className="absolute w-[42%] z-10 -translate-x-[30%] translate-y-[10%]" src="/HERO/hero-2.png"/>
                     <img className=" h-[50%] scale-125 z-1" src="/HERO/hero-bg-2.png"/>
                 </div>
 
