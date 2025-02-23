@@ -9,7 +9,7 @@ export default function Hero() {
 
     return (
         <div className="relative h-screen" >
-            <div className="container h-full flex flex-row" >
+            <div className="wrapper h-full flex flex-row" >
 
                 <div className="w-[50%] h-full  justify-center flex flex-col p-10">
                     <h1 className="text-6xl font-bold"> Track Every Match, Anywhere. Anytime.</h1>

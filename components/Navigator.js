@@ -30,7 +30,7 @@ export default function Navigator() {
 
     return(
        <div className="w-100 relative  h-[80px]">
-            <div className="container h-[100%] flex flex-row justify-between">
+            <div className="wrapper h-[100%] flex flex-row justify-between">
                     
                 <div className="h-100 w-100 border-box py-3 flex flex-row gap-5">
                     <img src="/40lovelogo.png" className="h-[80%]"/>
