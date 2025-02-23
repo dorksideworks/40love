@@ -33,28 +33,31 @@ export default function Navigator() {
 
             {
                 nav? 
-                <div className="relative fixed w-[60%] left-0 h-screen bg-white p-10 z-50">
+                <div className="fixed z-50 w-screen h-screen">
+                    <div className="relative w-[60%] left-0 h-screen bg-white p-10 z-50">
     
-                    <img src="/40lovelogo.png" className="w-[50%]"/>
-                    <img onClick={() => showNav()} className=" absolute right-10 top-8 w-[40px]" src="/close.png"  />
-    
-                    <ul className="flex flex-col text-3xl gap-5 mb-5 mt-10">
-                        <li className="duration-300 hover:text-40love-primary-900">Home</li>
-                        <li className="duration-300 hover:text-40love-primary-900">About</li>
-                        <li className="duration-300 hover:text-40love-primary-900">Features</li>
-    
-                    </ul>
-                    <div className="flex flex-col gap-5">
-    
-                        <img className="w-[70%]"  src="/download-appstore.png" />
-                        <img className="w-[70%]" src="/download-playstore.png" />
-                    </div>
-                </div> :""
+                        <img src="/40lovelogo.png" className="w-[50%]"/>
+                        <img onClick={() => showNav()} className=" absolute right-10 top-8 w-[40px]" src="/close.png"  />
+
+                        <ul className="flex flex-col text-3xl gap-5 mb-5 mt-10">
+                            <li className="duration-300 hover:text-40love-primary-900">Home</li>
+                            <li className="duration-300 hover:text-40love-primary-900">About</li>
+                            <li className="duration-300 hover:text-40love-primary-900">Features</li>
+
+                        </ul>
+                        <div className="flex flex-col gap-5">
+
+                            <img className="w-[70%]"  src="/download-appstore.png" />
+                            <img className="w-[70%]" src="/download-playstore.png" />
+                        </div>
+                    </div> 
+                    <div onClick={() => showNav()} className="fixed top-0 left-0 bg-black opacity-25 w-screen h-screen"> </div>
+                </div>:""
             }
 
             <div className="wrapper h-[100%] flex flex-row justify-between">
-                <div className="xl:hidden flex justify-center items-center">
-                    <img onClick={()=>showNav()} className="h-[50%]" src="/burger.png" />
+                <div className=" absolute top-[20px] left-[20px] xl:hidden flex justify-center items-center">
+                    <img onClick={()=>showNav()} className="h-[40px]" src="/burger.png" />
                 </div>
 
                 <div className="h-100 grow

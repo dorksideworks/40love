@@ -10,7 +10,7 @@ export default function Features() {
         <div className="mt-20">
 
                 
-            <div className="wrapper 
+            <div className="wrapper
                 p-10
                 xl:p-0
                 flex flex-col align-center justify-center min-h-screen">

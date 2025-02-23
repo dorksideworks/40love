@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 export default function CTA2() {
 
     return (
-        <div className="mt-20">
+        <div className="mt-44 xl:mt-20">
             <div className="wrapper 
             min-h-[300px]
             xl:min-h-auto

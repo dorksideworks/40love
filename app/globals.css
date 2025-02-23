@@ -43,7 +43,7 @@ html,body {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (min-width: 425px) and (max-width: 768px ){
   .wrapper {
     width: 100%;
     position: relative;
