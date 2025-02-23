@@ -5,7 +5,7 @@ export default function Footer () {
 
     return (
         <div class="footer z-50 relative ">
-            <div class="wrapper z-20 relative bg-[#F3F3F3] rounded-3xl p-20 border-box">
+            <div class="wrapper z-20 relative bg-[#F3F3F3] rounded-3xl p-10 xl:p-20 border-box">
 
                 <div class="flex flex-row justify-between items-center ">
                     <div>

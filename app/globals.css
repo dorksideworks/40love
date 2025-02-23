@@ -43,6 +43,17 @@ html,body {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 425px) {
+  .wrapper {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+  }
+  
+}
+
+
+
 .sidebar {
   background: linear-gradient(180deg, #0f212e 0%, #071824 100%);
 }
