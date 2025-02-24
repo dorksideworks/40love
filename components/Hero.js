@@ -15,7 +15,7 @@ export default function Hero() {
                     <h1 className="text-4xl xl:text-6xl font-bold"> Track Every Match, Anywhere. Anytime.</h1>
                     <p className="mt-3 text-lg text-gray-900">Stay in the game with 40love! Get live data on tennis matches happening around the world and find nearby games at your location. Never miss a point—whether you're playing or watching.</p>
 
-                    <h3 className="mt-5 font-bold">GET THE APP NOW</h3>
+                    <h3 className="mt-20 font-bold">GET THE APP NOW</h3>
                     <div className="flex flex-row mt-5 gap-5">
                         <a>
                             <img className="w-auto h-[40px] xl:h-[60px]" src="/download-appstore.png"/>

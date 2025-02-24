@@ -30,6 +30,8 @@ export default function Features() {
                     grid-rows-2 grid-cols-1
                     xl:grid-cols-2 xl:grid-rows-1 gap-10">
 
+                        {/** Features 01 */}
+
                         <div className="relative bg-40love-primary-900 text-white pt-10 pl-10 border-box rounded-xl min-h-[400px]">
                             
                             <div className="z-10">
@@ -43,6 +45,7 @@ export default function Features() {
 
                         </div>
 
+                        {/** Features 02 */}
                         <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl">
                             
                             <h3 className="font-bold text-3xl"> Live Match Tracking </h3>
@@ -56,32 +59,39 @@ export default function Features() {
                         grid-rows-3 grid-cols-1
                         xl:grid-cols-3 xl:grid-rows-1 gap-5"> 
 
-                        <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl">
+                        {/** Features 03 */}
+                        <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl overflow-hidden">
                             
                             <div className="z-10">
                                 <h3 className="font-bold text-3xl"> Match Finder </h3>
-                                <p className="w-[50%]  text-gray-200"> Discover and connect with local players near you to set up matches and improve your game. </p>    
+                                <p className="text-gray-200"> Discover and connect with local players near you to set up matches and improve your game. </p>    
                             </div> 
+
+                            <img className="absolute right-0 -bottom-[25%]" src="/FEATURES/feature-03.png" />
+
+                            <img className="absolute right-0 bottom-0 z-[1] h-full object-cover" src="/FEATURES/block-pattern.png" />
                          
 
                             
 
                         </div>
 
-                        <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl min-h-[400px]">
+                        {/** Features 04 */}
+                        <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl min-h-[400px] overflow-hidden">
                             
                             <div className="z-10">
                                 <h3 className="font-bold text-3xl"> 40Love Social </h3>
                                 <p className="w-[100%]  text-gray-200"> Share photos, experiences, and posts with the community, just like on social media, but for tennis lovers. </p>     
                             </div>
-                            <img className="absolute  right-0 bottom-0" src="/FEATURES/feature-04.png" />
+                            <img className="absolute w-[100%] left-0 mx-auto -bottom-[10%] " src="/FEATURES/feature-04.png" />
                             <img className="absolute h-full object-cover right-0 bottom-0 z-[1]" src="/FEATURES/block-pattern.png" />
                         </div>
 
+                        {/** Features 05 */}
                         <div className="relative bg-40love-primary-900 text-white p-10 border-box rounded-xl">
                             
                             <h3 className="font-bold text-3xl"> Match Finder </h3>
-                            <p className="w-[50%]  text-gray-200"> Discover and connect with local players near you to set up matches and improve your game. </p>
+                            <p className="w-[100%]  text-gray-200"> Discover and connect with local players near you to set up matches and improve your game. </p>
 
                         </div>
 

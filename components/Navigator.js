@@ -29,7 +29,7 @@ export default function Navigator() {
     }, [mode])
 
     return(
-       <div className="w-100 relative  h-[80px]">
+       <div className="fixed w-screen bg-white  h-[80px] z-[50]">
 
             {
                 nav? 

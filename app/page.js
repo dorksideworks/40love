@@ -6,6 +6,7 @@ import Features from '@/components/Features';
 
 import Footer from '@/components/Footer';
 import CTA from '@/components/CTA2';
+import MatchTracker from "@/components/MatchTracker";
 
 export default function Home() {
 
@@ -23,6 +24,7 @@ export default function Home() {
 
       <Hero/>
       <Features/>
+      <MatchTracker />
       <CTA />
       <Footer />
 
