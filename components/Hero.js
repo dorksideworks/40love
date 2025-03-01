@@ -34,17 +34,18 @@ export default function Hero() {
                     <motion.img 
                         initial={{y:"-100%", opacity: 0}}
                         animate={{y: "-15%", x: "25%", opacity: 1}}
-                        transition={{ease: "easeOut"}}
+                        transition={{ease: "circOut", duration: 1}}
                         className="absolute w-[42%] translate-x-[25%] -translate-y-[15%] z-20" src="/HERO/hero-1.png"/>
                     <motion.img 
                         initial={{y:"100%", opacity: 0}}
                         animate={{y: "10%", x: "-30%", opacity: 1}}
-                        transition={{ease: "easeOut"}}
+                        transition={{ease: "circOut", duration: 1}}
+                        
                         className="absolute w-[42%] z-10 -translate-x-[30%] translate-y-[10%]" src="/HERO/hero-2.png"/>
                     <motion.img 
                         initial={{scale:0}}
                         animate={{scale:1}}
-                        transition={{ease: "easeOut"}}
+                        transition={{ease: "circOut", duration: 1}}
                         className=" h-auto xl:h-[50%] xl:scale-125 z-1" src="/HERO/hero-bg-2.png"/>
                 </div>
 
